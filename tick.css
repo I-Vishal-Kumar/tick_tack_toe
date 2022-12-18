@@ -1,0 +1,85 @@
+*{
+  marks: 0;
+  padding: 0;
+  font-size: 1.25em;
+  border-style: bold;
+}
+
+.main{
+  display: flex;
+  width: 100vw;
+  /* border: 1px solid blue; */
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.main .box{
+  display: inline-block;
+  /* border: 1px solid red; */
+}
+.main .box .box1{
+  display: flex;
+
+  /* border: 1px solid blue; */
+}
+.main .box .box1 .fi , .se , .rd{
+   border: 1px solid black;
+   padding: 30px;
+   border-top: none;
+
+}
+.main .box .box2{
+  display: flex;
+  /* border: 1px solid blue; */
+}
+.main .box .box2 .rth , .th , .xith{
+   border: 1px solid black;
+   padding: 30px;
+}
+
+.main .box .box3{
+  display: flex;
+
+}
+.main .box .box3 .venth , .hth , .ninth{
+   border: 1px solid black;
+   border-bottom: none;
+   padding: 30px;
+}
+.ninth,.xith,.rd{
+  border-right: none;
+}
+.main .box .box1 .fi{
+   border-left: none;
+}
+.main .box .box2 .rth{
+   border-left: none;
+}
+.main .box .box3 .venth{
+   border-left: none;
+}
+
+.who{
+  padding: 0;
+  position: relative;
+  text-align: center;
+  font-style: italic;
+  color: red;
+  width: 100vw;
+  /* border: 1px solid red; */
+  margin-bottom: -24px;
+}
+.button{
+  position: absolute;
+  width: 150px;
+  margin-left: calc(50vw - 77px);
+  font-size: 1em;
+  margin-top: 40px;
+  border: 2px solid red;
+  border-radius: 20px;
+  background: #35df67;
+  color: white;
+}
+p{
+  margin-top: 0px;
+}
